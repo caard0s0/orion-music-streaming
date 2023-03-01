@@ -1,0 +1,71 @@
+/*****************************/
+/* HEADER */
+/*****************************/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 4.8rem;
+    background-color: #000;
+}
+
+.logo {
+    height: 3rem;
+}
+
+/*****************************/
+/* HEADER */
+/*****************************/
+
+.main-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    text-decoration: none;
+    padding: 1rem 1.8rem;
+    border-radius: 6px;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active,
+.main-nav-list li:nth-child(3):hover {
+    background-color: #222;
+    transition: all 0.3s;
+}
+
+.main-nav-list li:nth-child(3) {
+    display: flex;
+    align-items: center;
+
+    padding: 0 0 0 1.8rem;
+    border-radius: 6px;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    padding: 0.9rem 2.4rem;
+    border-radius: 6px;
+
+    color: #26282D;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    color: #26282D;
+    background-color: #bbb;
+    transition: all 0.3s;
+}
+
+ion-icon {
+    font-size: 2rem;
+    color: #fff;
+}
