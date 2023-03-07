@@ -74,6 +74,7 @@ ion-icon {
 /*****************************/
 .section-home {
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(2, 1fr);
     background: linear-gradient(170deg, #222, #000 90%);
 }
