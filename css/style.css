@@ -1,7 +1,6 @@
 /*****************************/
 /* HEADER / NAVIGATION */
 /*****************************/
-
 .logo {
     height: 3rem;
 }
@@ -69,10 +68,11 @@ ion-icon {
     color: #fff;
 }
 
+
 /*****************************/
 /* SECTION HOME */
 /*****************************/
-.home {
+.section-home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background: linear-gradient(170deg, #222, #000 90%);
@@ -90,7 +90,7 @@ ion-icon {
     letter-spacing: 3.75px;
     line-height: 1.2;
     
-    background-image: radial-gradient(circle at 30% 85%,#facdab 0,#a46a51 35%,#784d3b 55%);
+    background-image: radial-gradient(circle at 30% 85%,#da7c3d 0,#933b88 35%,#443cac 55%);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -149,4 +149,105 @@ ion-icon {
     height: 75px;
     position: absolute;
     bottom: 0;
+}
+
+
+/*****************************/
+/* SECTION FEATURE */
+/*****************************/
+.section-feature {
+    padding: 9.6rem 0;
+}
+
+.card-background {
+    border-radius: 9px;
+    position: relative;
+}
+
+.card-background::after {
+    content: "";
+    border-radius: 9px;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+}
+
+.songs {
+    background-color: #ad183c;
+    opacity: 0.9;
+}
+
+.songs:hover {
+    opacity: 1;
+    box-shadow: 0 10px 30px 10px rgba(255, 110, 85,  0.2);
+    transition: all 0.3s;
+}
+
+.songs::after {
+    background: linear-gradient(180deg, rgba(82, 4, 4, 0.1) 38%,#730404 68%);
+}
+
+.playlists {
+    background-color: #a30953;
+    opacity: 0.9;
+}
+
+.playlists:hover {
+    opacity: 1;
+    box-shadow: 0 10px 30px 10px rgba(200, 10, 220, 0.2);
+    transition: all 0.3s;
+}
+
+.playlists::after {
+    background: linear-gradient(180deg,rgba(133, 12, 128, 0.1) 38%,#670d76 68%);
+}
+
+.hifi {
+    background-color: #ad631e;
+    opacity: 0.9;
+}
+
+.hifi:hover {
+    opacity: 1;
+    box-shadow: 0 10px 30px 10px rgba(173, 99, 30, 0.2);
+    transition: all 0.3s;
+}
+
+.hifi::after {
+    background: linear-gradient(180deg,rgba(138, 58, 13, 0.1) 38%,#7d260b 68%);
+}
+
+.card {
+    padding: 4.8rem 3.2rem;
+}
+
+.card img {
+    min-width: 100%;
+    max-height: 450px;
+    padding: 0 6.4rem;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.card-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-description {
+    color: #eee;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
 }

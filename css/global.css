@@ -15,5 +15,16 @@ html {
 body {
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
-    background-color: #101010;
+    background-color: #000;
+}
+
+.container {
+    max-width: 155.4rem;
+    margin: 0 auto;
+}
+
+.grid--3-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
 }
