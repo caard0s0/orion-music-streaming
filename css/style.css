@@ -89,7 +89,7 @@ ion-icon {
     font-size: 10.8rem;
     margin-bottom: 2rem;
     letter-spacing: 3.75px;
-    line-height: 1.2;
+    line-height: 1.1;
     
     background-image: radial-gradient(circle at 30% 85%,#da7c3d 0,#933b88 35%,#443cac 55%);
     -webkit-background-clip: text;
@@ -157,6 +157,8 @@ ion-icon {
 /* SECTION FEATURE */
 /*****************************/
 .section-feature {
+    display: grid;
+    column-gap: 20px;
     padding: 9.6rem 0;
 }
 
@@ -250,5 +252,130 @@ ion-icon {
     color: #eee;
     font-weight: 400;
     font-size: 1.8rem;
-    line-height: 1.5;
+}
+
+
+/*****************************/
+/* SECTION ANIMATION */
+/*****************************/
+.section-animation {
+    padding: 9.6rem 0;
+}
+
+.header-secondary {
+    margin: 0 auto;
+    margin-bottom: 16rem;
+    text-align: center;
+}
+
+.header-secondary h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+    color: #fff;
+}
+
+.header-secondary p {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.section-animation .animation-cards {
+    display: grid;
+    column-gap: 60px;
+}
+
+.animation-card {
+    height: 570px;
+    position: relative;
+    padding: 4rem;
+}
+
+.animation-card::after {
+    content: "";
+    border-radius: 6px;
+    background: linear-gradient(180deg, rgba(120,119,127,.025) 33%, rgba(120,119,127,.2));
+    position: absolute;
+    top: 0;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity .25s ease;
+}
+
+.animation-card:hover::after {
+    opacity: 1;
+}
+
+.sound-bar {
+    margin-bottom: 6.4rem;
+}
+
+.animation-card-content {
+    position: relative;
+}
+
+.border-right::after {
+    content: "";
+    background: hsla(0,0%,52.5%,.5);
+    background: linear-gradient(180deg, hsla(0,0%,52.5%,0), hsla(0,0%,52.5%,.4), hsla(0,0%,52.5%,0));
+    position: absolute;
+    bottom: 0;
+    right: -7rem;
+    height: 100%;
+    width: 1px;
+}
+
+.animation-card-content h2 {
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+
+.animation-card-content p {
+    font-size: 1.6rem;
+    color: #Fff;
+}
+
+.all-sound-descriptions {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.sound-description small:first-child {
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sound-description small:nth-child(2) {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.sound-description small:nth-child(3) {
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.normal-type small:first-child {
+    background-color: #393940;
+    color: #fff;
+}
+
+.hifi-type small:first-child {
+    background-color: #07332f;
+    color: #21feec;
+}
+
+.master-type small:first-child {
+    background-color: #332619;
+    color: #edb074;
 }

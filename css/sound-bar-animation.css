@@ -1,0 +1,250 @@
+/*****************************/
+/* SOUND BAR ANIMATION */
+/*****************************/
+.sound-bar path {
+    webkit-animation-play-state: running;
+    animation-play-state: running;
+
+    -webkit-animation: sound-animation .5s ease-in-out both;
+    animation: sound-animation .5s ease-in-out both;
+
+    -webkit-animation-iteration-count: 4; 
+    animation-iteration-count: 4;
+}
+
+.animation-card:hover .sound-bar path {
+    webkit-animation-play-state: running;
+    animation-play-state: running;
+
+    -webkit-animation: sound-animation .5s infinite;
+    animation: sound-animation .5s infinite;
+}
+
+.sound-bar--master path {
+    webkit-animation-play-state: running;
+    animation-play-state: running;
+
+    -webkit-animation: sound-animation .35s ease-in-out both;
+    animation: sound-animation .35s ease-in-out both;
+
+    -webkit-animation-iteration-count: 6; 
+    animation-iteration-count: 6;
+}
+
+.animation-card:hover .sound-bar--master path {
+    webkit-animation-play-state: running;
+    animation-play-state: running;
+
+    -webkit-animation: sound-animation .35s infinite;
+    animation: sound-animation .35s infinite;
+}
+
+@keyframes sound-animation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+}
+
+.sound-bar path:first-child,
+.animation-card:hover .sound-bar path:first-child{
+    animation-delay: 25ms;
+}
+
+.sound-bar path:nth-child(2),
+.animation-card:hover .sound-bar path:nth-child(2) {
+    animation-delay: .05ms;
+}
+
+.sound-bar path:nth-child(3),
+.animation-card:hover .sound-bar path:nth-child(3) {
+    animation-delay: 75ms;
+}
+
+.sound-bar path:nth-child(4),
+.animation-card:hover .sound-bar path:nth-child(4) {
+    animation-delay: .1s;
+}
+
+.sound-bar path:nth-child(5),
+.animation-card:hover .sound-bar path:nth-child(5) {
+    animation-delay: .125s;
+}
+
+.sound-bar path:nth-child(6),
+.animation-card:hover .sound-bar path:nth-child(6) {
+    animation-delay: .15s;
+}
+
+.sound-bar path:nth-child(7),
+.animation-card:hover .sound-bar path:nth-child(7) {
+    animation-delay: .175s;
+}
+
+.sound-bar path:nth-child(8),
+.animation-card:hover .sound-bar path:nth-child(8) {
+    animation-delay: .2s;
+}
+
+.sound-bar path:nth-child(9),
+.animation-card:hover .sound-bar path:nth-child(9) {
+    animation-delay: .225s;
+}
+
+.sound-bar path:nth-child(10),
+.animation-card:hover .sound-bar path:nth-child(10) {
+    animation-delay: .25s;
+}
+
+.sound-bar path:nth-child(11),
+.animation-card:hover .sound-bar path:nth-child(11) {
+    animation-delay: .275s;
+}
+
+.sound-bar path:nth-child(12),
+.animation-card:hover .sound-bar path:nth-child(12) {
+    animation-delay: .3s;
+}
+
+.sound-bar path:nth-child(13),
+.animation-card:hover .sound-bar path:nth-child(13) {
+    animation-delay: .325s;
+}
+
+.sound-bar path:nth-child(14),
+.animation-card:hover .sound-bar path:nth-child(14) {
+    animation-delay: .35s;
+}
+
+.sound-bar path:nth-child(15),
+.animation-card:hover .sound-bar path:nth-child(15) {
+    animation-delay: .375s;
+}
+
+.sound-bar path:nth-child(16),
+.animation-card:hover .sound-bar path:nth-child(16) {
+    animation-delay: .4s;
+}
+
+.sound-bar path:nth-child(17),
+.animation-card:hover .sound-bar path:nth-child(17) {
+    animation-delay: .425s;
+}
+
+.sound-bar path:nth-child(18),
+.animation-card:hover .sound-bar path:nth-child(18) {
+    animation-delay: .45s;
+}
+
+.sound-bar path:nth-child(19),
+.animation-card:hover .sound-bar path:nth-child(19) {
+    animation-delay: .475s;
+}
+
+.sound-bar path:nth-child(20),
+.animation-card:hover .sound-bar path:nth-child(20) {
+    animation-delay: .5s;
+}
+
+.sound-bar path:nth-child(21),
+.animation-card:hover .sound-bar path:nth-child(21) {
+    animation-delay: .525s;
+}
+
+.sound-bar path:nth-child(22),
+.animation-card:hover .sound-bar path:nth-child(22) {
+    animation-delay: .55s;
+}
+
+.sound-bar path:nth-child(23),
+.animation-card:hover .sound-bar path:nth-child(23) {
+    animation-delay: .575s;
+}
+
+.sound-bar path:nth-child(24),
+.animation-card:hover .sound-bar path:nth-child(24) {
+    animation-delay: .6s;
+}
+
+.sound-bar path:nth-child(25),
+.animation-card:hover .sound-bar path:nth-child(25) {
+    animation-delay: .625s;
+}
+
+.sound-bar path:nth-child(26),
+.animation-card:hover .sound-bar path:nth-child(26) {
+    animation-delay: .65s;
+}
+
+.sound-bar path:nth-child(27),
+.animation-card:hover .sound-bar path:nth-child(27) {
+    animation-delay: .675s;
+}
+
+.sound-bar path:nth-child(28),
+.animation-card:hover .sound-bar path:nth-child(28) {
+    animation-delay: .7s;
+}
+
+.sound-bar path:nth-child(29),
+.animation-card:hover .sound-bar path:nth-child(29) {
+    animation-delay: .725s;
+}
+
+.sound-bar path:nth-child(30),
+.animation-card:hover .sound-bar path:nth-child(30) {
+    animation-delay: .75s;
+}
+
+.sound-bar path:nth-child(31),
+.animation-card:hover .sound-bar path:nth-child(31) {
+    animation-delay: .775s;
+}
+
+.sound-bar path:nth-child(32),
+.animation-card:hover .sound-bar path:nth-child(32) {
+    animation-delay: .8s;
+}
+
+.sound-bar path:nth-child(33),
+.animation-card:hover .sound-bar path:nth-child(33) {
+    animation-delay: .825s;
+}
+
+.sound-bar path:nth-child(34),
+.animation-card:hover .sound-bar path:nth-child(34) {
+    animation-delay: .85s;
+}
+
+.sound-bar path:nth-child(35),
+.animation-card:hover .sound-bar path:nth-child(35) {
+    animation-delay: .875s;
+}
+
+.sound-bar path:nth-child(36),
+.animation-card:hover .sound-bar path:nth-child(36) {
+    animation-delay: .9s;
+}
+
+.sound-bar path:nth-child(37),
+.animation-card:hover .sound-bar path:nth-child(37) {
+    animation-delay: .925s;
+}
+
+.sound-bar path:nth-child(38),
+.animation-card:hover .sound-bar path:nth-child(38) {
+    animation-delay: .95s;
+}
+
+.sound-bar path:nth-child(39),
+.animation-card:hover .sound-bar path:nth-child(39) {
+    animation-delay: .975s;
+}
+
+.sound-bar path:nth-child(40),
+.animation-card:hover .sound-bar path:nth-child(40) {
+    animation-delay: .1s;
+}
