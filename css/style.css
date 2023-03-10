@@ -517,3 +517,48 @@ ion-icon {
     border-radius: 10px;
     padding: 1.5rem 12rem;
 }
+
+
+/*****************************/
+/* SECTION FAQ */
+/*****************************/
+.faq-bg {
+    background-color: #141417;
+}
+
+.section-faq {
+    padding: 9.6rem;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 8rem;
+    font-weight: 700;
+
+    color: #fff;
+}
+
+.faq-questions {
+    display: grid;
+    column-gap: 60px;
+}
+
+.faq-question h3 {
+    font-size: rem;
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+    font-weight: 700;
+    
+    color: #fff;
+}
+
+.faq-question p {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.faq-question a {
+    color: #fff;
+}
