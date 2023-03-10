@@ -24,6 +24,17 @@ body {
     margin: 0 auto;
 }
 
+.flex-center {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.grid--2-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .grid--3-cols {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
