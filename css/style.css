@@ -522,11 +522,11 @@ ion-icon {
 /*****************************/
 /* SECTION FAQ */
 /*****************************/
-.faq-bg {
+.section-faq--bg {
     background-color: #141417;
 }
 
-.section-faq {
+.faq {
     padding: 9.6rem;
 }
 
