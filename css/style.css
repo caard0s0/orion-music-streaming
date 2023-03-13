@@ -1,7 +1,7 @@
 /*****************************/
 /* HEADER / NAVIGATION */
 /*****************************/
-.logo {
+.heading-logo {
     height: 7rem;
 }
 
@@ -63,7 +63,7 @@
     transition: all 0.3s;
 }
 
-ion-icon {
+.person-icon {
     font-size: 2rem;
     color: #fff;
 }
@@ -463,13 +463,13 @@ ion-icon {
     margin-bottom: 2.8rem;
 }
 
-.hifi-subscription .list-item .checkmark {
+.hifi-subscription .list-item .checkmark-icon {
     font-size: 1.6rem;
     font-weight: 700;
     color: #11413e;
 }
 
-.hifi-plus-subscription .list-item .checkmark {
+.hifi-plus-subscription .list-item .checkmark-icon {
     font-size: 1.6rem;
     font-weight: 700;
     color: #46160b;
@@ -513,7 +513,7 @@ ion-icon {
     margin-bottom: 1.6rem;
 }
 
-.btn.btn-sign-up {
+.btn.btn-card {
     border-radius: 10px;
     padding: 1.5rem 12rem;
 }
@@ -668,12 +668,13 @@ ion-icon {
     list-style: none;
 }
 
-.social {
+.social-icon {
+    color: #fff;
     font-size: 2.4rem;
     opacity: 0.7;
 }
 
-.social:hover {
+.social-icon:hover {
     opacity: 1;
     transition: all 0.3s;
 }
