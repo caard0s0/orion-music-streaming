@@ -46,21 +46,9 @@
     border-radius: 6px;
 }
 
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
+.btn.nav-cta:link,
+.btn.nav-cta:visited {
     padding: 0.9rem 2.4rem;
-    border-radius: 6px;
-
-    color: #26282D;
-    background-color: #fff;
-    border: 1px solid #fff;
-}
-
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-    color: #26282D;
-    background-color: #bbb;
-    transition: all 0.3s;
 }
 
 .person-icon {
@@ -102,28 +90,10 @@
     margin-bottom: 3.2rem;
 }
 
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    
-    text-decoration: none;
-    font-size: 1.8rem;
-    border-radius: 6px;
-    border: 1px solid #fff;
-    font-weight: 600;
-
-    background-color: #fff;
-    color: #26282D;
-
-    padding: 1.6rem 4.8rem;
+.btn.btn-extra:link,
+.btn.btn-extra:visited {
+    padding: 1.3rem 4.8rem;
     margin-bottom: 1rem;
-}
-
-.btn:hover,
-.btn:active {
-    color: #26282D;
-    background-color: #bbb;
-    transition: all 0.3s;
 }
 
 .obs {
@@ -513,9 +483,19 @@
     margin-bottom: 1.6rem;
 }
 
-.btn.btn-card {
+.btn.btn-card:link,
+.btn.btn-card:visited {
     border-radius: 10px;
     padding: 1.5rem 12rem;
+    opacity: 0.9;
+}
+
+.btn.btn-card:hover,
+.btn.btn-card:active {
+    background-color: #fff;
+    color: #26282D;
+    opacity: 1;
+    transition: all 0.3s;
 }
 
 
@@ -629,14 +609,16 @@
     margin-bottom: 2.8rem;
 }
 
-.btn.btn-outline {
+.btn.btn-outline:link,
+.btn.btn-outline:visited {
     background-color: #101012;
     color: #00ffff;
     border: 1px solid #00ffff;
     padding: 1.2rem 10rem; 
 }
 
-.btn.btn-outline:hover {
+.btn.btn-outline:hover,
+.btn.btn-outline:active {
     background-color: #003333;
     color: #00ffff;
     transition: all 0.3s;

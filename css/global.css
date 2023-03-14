@@ -40,3 +40,22 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #26282D;
+
+    border: 1px solid #fff;
+    font-size: 1.8rem;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+    color: #26282D;
+    background-color: #bbb;
+    transition: all 0.3s;
+}
