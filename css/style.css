@@ -61,7 +61,6 @@
 /* SECTION HOME */
 /*****************************/
 .section-home {
-    display: grid;
     place-items: center;
     background: linear-gradient(170deg, #222, #000 90%);
 }
@@ -126,7 +125,6 @@
 /* SECTION FEATURE */
 /*****************************/
 .section-feature {
-    display: grid;
     column-gap: 20px;
     padding: 9.6rem 0;
 }
