@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./css/login.css" />
+        <link rel="stylesheet" href="./css/global.css" />
+
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+        <title> Sign Up | Log In &bull; Orion </title>
+
+    </head>
+
+    <body>
+
+        <div class="page-auth container">
+
+            <header class="heading-auth">
+
+                <img class="heading-logo" src="./img/orion-logo.png" alt="Orion-logo" />
+
+                <h1 class="heading-title">
+                    Sign up or log in
+                </h1>
+
+            </header>
+
+            <main>
+
+                <div class="form-background">
+
+                    <form class="emailBox">
+
+                        <div>
+
+                            <label class="form-select-email" for="emailAddress">Enter your email or username</label>
+                            <input
+                                id="emailAddress"
+                                name="emailAddress"
+                                class="email"
+                                type="email"
+                                placeholder="Enter your email or username"
+                                size="45"
+                                minlength="4"
+                                maxlength="256"
+                                autocomplete="off"
+                                autocapitalize="off" 
+                                spellcheck="false"
+                                required
+                                autofocus
+                            />
+
+                        </div>
+
+                        <button class="btn btn-login" type="submit">
+                            Continue
+                        </button>
+
+                    </form>
+
+                    <div class="auth-box">
+                        
+                        <p class="separator">or</p>
+
+                        <div class="auth-accounts">
+
+                            <button class="btn btn-account">
+                                <div class="button-content">
+                                    <ion-icon class="account-icon" name="logo-google"></ion-icon>
+                                    <span>Continue with Google</span> 
+                                </div>
+                            </button>
+    
+                            <button class="btn btn-account">
+                                <div class="button-content">
+                                    <ion-icon class="account-icon" name="logo-apple"></ion-icon>
+                                    <span>Continue with Apple</span>
+                                </div>
+                            </button>
+    
+                            <button class="btn btn-account">
+                                <div class="button-content">
+                                    <i class="ph ph-spotify-logo"></i>
+                                    <span>Continue with Spotify</span>
+                                </div>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+        
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+
+</html>
