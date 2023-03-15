@@ -52,11 +52,11 @@ body {
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn:hover,
 .btn:active {
     color: #26282D;
     background-color: #bbb;
-    transition: all 0.3s;
 }
